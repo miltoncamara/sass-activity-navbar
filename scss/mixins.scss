@@ -1,0 +1,5 @@
+@mixin navbar-custom($bg-color, $height) {
+    background-color: $bg-color;
+    height: $height;
+    line-height: $height;
+}

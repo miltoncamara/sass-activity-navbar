@@ -1,0 +1,39 @@
+@import '../bower_components/bootstrap/scss/bootstrap';
+@import "variables";
+@import "mixins";
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+    margin:0px;
+}
+
+.container-nav {
+    width: 100%;
+    @include navbar-custom(#E1E1E1, 50px);
+}
+
+.headbar {
+    @extend .container;
+    .brand {
+        @extend .col-md-2;
+        font-weight: bold;
+    }
+    .nav {
+        @extend .col-md-10;
+        ul {
+            list-style: none; 
+            padding:0;
+            margin:0;
+           li {
+               float:left;
+               margin-right: 20px;
+               &:last-child{
+                   margin-right: 0;
+               }
+           }
+        }
+    }
+}

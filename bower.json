@@ -1,0 +1,20 @@
+{
+  "name": "sass-activity-navbar",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Milton Camara gomes"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/miltomcamara/sass-activity-navbar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
